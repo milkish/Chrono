@@ -9,7 +9,7 @@ _________________________________________________________________________
 
 2011 || code: gplv3 || images: copyright 2011 || font: public domain
 
-
+# Chrono
 
 Chrono is a small android app that simulates a retro calculator.  It should
 work out of the box in eclipse. Theres really not much else to say. It is fairly
@@ -18,3 +18,5 @@ project usefull and want to show some appreciation, you can pick up the app in
 the app store for $.99.
 
 http://market.android.com/details?id=com.milkish.chrono
+
+![Screenshot](https://github.com/milkish/Chrono/raw/master/screenshots/screenshot1.png)
