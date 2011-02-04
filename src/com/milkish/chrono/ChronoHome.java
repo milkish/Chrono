@@ -27,7 +27,7 @@ import java.util.Date;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 
-import com.milkish.test.R;
+import com.milkish.chrono.R;
 
 public class ChronoHome extends Activity{
 	public static final String CLASSIO_VERSION = "1";
