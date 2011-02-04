@@ -1,9 +1,5 @@
 package com.milkish.chrono;
 
-//TODO: hide interface helpers
-//TODO: publish the code
-//TODO: research home screen
-
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Context;
