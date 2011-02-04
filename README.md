@@ -19,6 +19,7 @@ well documented and serves as a good learning tool for Android. If you find this
 project usefull and want to show some appreciation, you can pick up the app in 
 the app store for $.99.
 
-http://market.android.com/details?id=com.milkish.chrono
+* [Chrono in the app store](http://market.android.com/details?id=com.milkish.chrono)
+
 
 ![Screenshot](https://github.com/milkish/Chrono/raw/master/screenshots/screenshot1.png)
