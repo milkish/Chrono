@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Chrono</string>
+    <string name="MenuButton24">24hr Display</string>
+    <string name="MenuButton12">12hr Display</string>
+    <string name="MenuButtonBackground">Change Background</string>
+    <string name="MenuButtonAbout">About</string>
+    <string name="AboutPupupTitle">About</string>
+</resources>

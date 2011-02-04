@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/wrapper"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background1"
+    >
+    <ImageView android:src="@drawable/f_28w"
+   		android:id="@+id/watch" android:layout_gravity="center" android:layout_width="300dp" android:scaleType="centerCrop" android:layout_height="wrap_content"/> 
+    
+    <TextView style="@style/ClockView" android:text="12:00" android:id="@+id/clock" android:layout_height="fill_parent" android:layout_width="fill_parent" android:gravity="center" android:paddingRight="40dp" android:paddingTop="45dp"></TextView>
+    <TextView style="@style/SecondsView" android:text="55" android:id="@+id/seconds" android:layout_height="fill_parent" android:layout_width="fill_parent" android:gravity="center" android:paddingLeft="120dp" android:paddingTop="56dp"></TextView>
+    <TextView style="@style/DayView" android:text="we" android:id="@+id/day" android:layout_height="fill_parent" android:layout_width="fill_parent" android:gravity="center" android:paddingBottom="35dp" android:paddingRight="115dp"></TextView>
+    <TextView style="@style/DateView" android:text="2- 2" android:id="@+id/date" android:layout_height="fill_parent" android:layout_width="fill_parent" android:gravity="center" android:paddingLeft="95dp" android:paddingBottom="35dp"></TextView>
+    <TextView style="@style/HrView" android:text="24HR" android:id="@+id/hr24" android:layout_height="fill_parent" android:layout_width="fill_parent" android:gravity="center" android:paddingBottom="28dp" android:paddingRight="50dp"></TextView>
+    <!--TextView style="@style/HrView" android:text="12HR" android:id="@+id/hr12" android:layout_height="fill_parent" android:layout_width="fill_parent" android:gravity="center" android:paddingBottom="63dp" android:paddingRight="60dp"></TextView-->
+    <!-- TextView style="@style/ClockView" android:text="12:00" android:id="@+id/clock" android:layout_height="fill_parent" android:layout_width="fill_parent" android:gravity="center" android:paddingRight="55dp" android:paddingTop="65dp"></TextView>
+    <TextView style="@style/SecondsView" android:text="55" android:id="@+id/seconds" android:layout_height="fill_parent" android:layout_width="fill_parent" android:gravity="center" android:paddingLeft="185dp" android:paddingTop="83dp"></TextView>
+    <TextView style="@style/DayView" android:text="we" android:id="@+id/day" android:layout_height="fill_parent" android:layout_width="fill_parent" android:gravity="center" android:paddingRight="165dp" android:paddingBottom="50dp"></TextView>
+    <TextView style="@style/DateView" android:text="2- 2" android:id="@+id/date" android:layout_height="fill_parent" android:layout_width="fill_parent" android:gravity="center" android:paddingLeft="140dp" android:paddingBottom="50dp"></TextView>
+    <TextView style="@style/HrView" android:text="12HR" android:id="@+id/hr12" android:layout_height="fill_parent" android:layout_width="fill_parent" android:gravity="center" android:paddingBottom="63dp" android:paddingRight="60dp"></TextView>
+    <TextView style="@style/HrView" android:text="24HR" android:id="@+id/hr24" android:layout_height="fill_parent" android:layout_width="fill_parent" android:gravity="center" android:paddingRight="60dp" android:paddingBottom="37dp"></TextView-->
+    <EditText android:text="EditText" android:id="@+id/adjust" android:layout_width="wrap_content" android:layout_height="wrap_content" android:visibility="gone"></EditText>
+    <Button android:id="@+id/tryBut" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="right" android:text="Test" android:visibility="gone"></Button>
+    
+</FrameLayout>
+
+
+        

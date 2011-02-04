@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/aboutRoot"
+    android:padding="10dp">
+    
+    
+    <TextView style="@style/aboutTextDark" android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Chrono"></TextView>
+    <TextView style="@style/aboutTextDark" android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="right" android:text="www.milkish.com"></TextView>
+    <TextView style="@style/aboutText" android:id="@+id/textView1" android:layout_height="wrap_content" android:text="Chrono is in no way affiliated with Casio Computer Co., Ltd. Though they do make pretty sweet watches.\nThis app makes use of some great free patterns by Travis Beckham that can be found at squidfingers.com.\n\nThis is an open source project.\nhttps://github.com/milkish/Chrono\n\n\nMade with love in Brooklyn, Ny." android:layout_width="wrap_content" android:paddingTop="25sp"></TextView>
+    
+</FrameLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/changeHourDisplay"
+          android:title="@string/MenuButton24" 
+	/>
+          
+	<item android:id="@+id/changeBackground"
+          android:title="@string/MenuButtonBackground" 
+    />
+    
+    <item android:id="@+id/aboutButton"
+          android:title="@string/MenuButtonAbout"
+    />
+</menu>
