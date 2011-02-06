@@ -49,7 +49,6 @@ public class ChronoHome extends Activity{
 	private Button tryBut;
 	private int currentBackgroundIndex = 0;
 	private int[] backgrounds = {
-			99,
     		R.drawable.background1,
     		R.drawable.background2,
     		R.drawable.background3,
@@ -96,14 +95,8 @@ public class ChronoHome extends Activity{
 	    currentBackgroundIndex = storedSettings.getInt("background", 1);
 	    //restore hour display setting
 	    updateHourDisplayIndicator();
-	    Log.i("blah", Integer.toString(currentBackgroundIndex));
-	    if(currentBackgroundIndex == 1){
-	    	//nothing 
-	    } else {
-		  	wrapper.setBackgroundResource(backgrounds[currentBackgroundIndex]);
-	    }
-	    Log.i("blah", Integer.toString(currentBackgroundIndex));
- 
+	  	wrapper.setBackgroundResource(backgrounds[currentBackgroundIndex]);
+
 		//create handler to do the looping
 		mHandler = new Handler();
 		
@@ -247,7 +240,7 @@ public class ChronoHome extends Activity{
 	public void changeBackground() {
 		currentBackgroundIndex += 1;
 		if(currentBackgroundIndex >= backgrounds.length){
-			currentBackgroundIndex = 1;
+			currentBackgroundIndex = 0;
 		}
 	  	wrapper.setBackgroundResource(backgrounds[currentBackgroundIndex]);
 	  	SharedPreferences.Editor editor = storedSettings.edit();

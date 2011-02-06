@@ -3,7 +3,6 @@
     android:id="@+id/wrapper"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background="@drawable/background1"
     >
     <ImageView android:src="@drawable/f_28w"
    		android:id="@+id/watch" android:layout_gravity="center" android:layout_width="300dp" android:scaleType="centerCrop" android:layout_height="wrap_content"/> 
